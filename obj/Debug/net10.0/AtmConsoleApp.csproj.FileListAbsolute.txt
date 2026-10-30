@@ -1,0 +1,15 @@
+/Users/bhanugaur/Desktop/AtmConsoleApp/bin/Debug/net10.0/AtmConsoleApp
+/Users/bhanugaur/Desktop/AtmConsoleApp/bin/Debug/net10.0/AtmConsoleApp.deps.json
+/Users/bhanugaur/Desktop/AtmConsoleApp/bin/Debug/net10.0/AtmConsoleApp.runtimeconfig.json
+/Users/bhanugaur/Desktop/AtmConsoleApp/bin/Debug/net10.0/AtmConsoleApp.dll
+/Users/bhanugaur/Desktop/AtmConsoleApp/bin/Debug/net10.0/AtmConsoleApp.pdb
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.AssemblyInfoInputs.cache
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.AssemblyInfo.cs
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.csproj.CoreCompileInputs.cache
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.sourcelink.json
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.dll
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/refint/AtmConsoleApp.dll
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.pdb
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/AtmConsoleApp.genruntimeconfig.cache
+/Users/bhanugaur/Desktop/AtmConsoleApp/obj/Debug/net10.0/ref/AtmConsoleApp.dll
