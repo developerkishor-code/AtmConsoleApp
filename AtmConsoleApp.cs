@@ -6,16 +6,24 @@ public class AtmConsoleApp
 
     public void Run()
     {
+        string[] menuOptions =
+        [
+            "***** Welcome to the Kishore'ATM! *****",
+            "Please select an option:",
+            "1. Check Balance",
+            "2. Withdraw Money",
+            "3. Deposit Money",
+            "4. Change PIN",
+            "5. Return to Main Menu",
+            "6. Exit"
+        ];
+
         while (true)
         {
-            Console.WriteLine("***** Welcome to the Kishore'ATM! *****");
-            Console.WriteLine("Please select an option:");
-            Console.WriteLine("1. Check Balance");
-            Console.WriteLine("2. Withdraw Money");
-            Console.WriteLine("3. Deposit Money");
-            Console.WriteLine("4. Change PIN");
-            Console.WriteLine("5. Return to Main Menu");
-            Console.WriteLine("6. Exit");
+            foreach (string menuOption in menuOptions)
+            {
+                Console.WriteLine(menuOption);
+            }
 
             int userChoice = Convert.ToInt32(Console.ReadLine());
 
