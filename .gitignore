@@ -1,5 +1,4 @@
-bin/
-obj/
-.vs/
-*.user
-*.suo
+bin/Debug/net10.0/AtmConsoleApp.dll
+bin/Debug/net10.0/AtmConsoleApp.pdb
+bin/Debug/net10.0/AtmConsoleApp
+bin/Debug/net10.0/AtmConsoleApp.runtimeconfig.json
