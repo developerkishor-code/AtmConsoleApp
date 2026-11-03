@@ -31,6 +31,3 @@ items.Remove("Notebook");
 Console.WriteLine(items.Count);    // Number of items: 1
 Console.WriteLine(items.Capacity); // Allocated storage; at least Count
 
-Use ArrayList when learning about non-generic collections or when working with
-older APIs that require it. For new code with items of one type, prefer a
-generic collection such as List<string>.

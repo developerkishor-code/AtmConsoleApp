@@ -1,0 +1,35 @@
+Hashtable in C#
+===============
+
+A Hashtable is a non-generic collection in the System.Collections namespace.
+It stores values as key-value pairs. Unlike an ArrayList, items are retrieved
+using keys rather than numeric indexes.
+
+Key points
+----------
+- Each key must be unique and must not be null.
+- Values may be null, and keys and values are stored as objects.
+- Add(key, value) inserts a new pair. Use the indexer to get or update a value.
+- Hashtable uses each key's hash code to help locate values. It is not
+  guaranteed to be faster than an ArrayList in every situation.
+- Enumeration order is not guaranteed.
+- Because Hashtable is non-generic, retrieving values may require casting,
+  and value types may be boxed. For most new code, prefer Dictionary<TKey,
+  TValue> for type safety.
+
+Example
+-------
+using System.Collections;
+
+Hashtable employee = new Hashtable();
+employee.Add("emp_id", 101);
+employee.Add("emp_name", "Scott");
+
+Console.WriteLine(employee["emp_name"]); // Scott
+
+foreach (DictionaryEntry entry in employee)
+{
+    Console.WriteLine($"{entry.Key}: {entry.Value}");
+}
+
+
