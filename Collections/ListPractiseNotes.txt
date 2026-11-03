@@ -1,0 +1,18 @@
+Hashtable in C#
+===============
+An List is a generic collection from the System.Collections.Generic namespace. Unlike a
+ArrayList, it is type safe.
+
+Example
+List <string> stringList = new List<string>();
+List <int> intList = new List<int>();
+List <Customer> customers = new List<Customer>();
+
+Key points
+----------
+
+1- Lits is a generic collection which is type safe and it has auto resizing capabilities.
+2- You can insert items in middle.
+3- you can delete items from middle.
+4- if you try to store any other value which is not of type list you will get an error.
+5- Other funclitionaly works like same as Array List.
