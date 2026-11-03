@@ -1,4 +1,7 @@
 using System;
+
+namespace AtmConsoleApp;
+
 public class AtmConsoleApp
 {
     int userAmount = Constants.InitialUserAmount;
