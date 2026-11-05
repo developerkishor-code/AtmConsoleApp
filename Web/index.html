@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <img class="header-image" src="images.jpeg" alt="A planner with a handwritten task list">
+        <div class="header-text">
+            <h1>My Tasks</h1>
+            <p>Keep track of what you need to do.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="task-section" aria-labelledby="task-list-heading">
+            <h2 id="task-list-heading">Task list</h2>
+            <ul id="task-list" class="task-list">
+                <li class="task-card">Finish Web Development Course</li>
+                <li class="task-card">Learn JavaScript</li>
+                <li class="task-card">Learn React</li>
+                <li class="task-card">Practise coding</li>
+            </ul>
+        </section>
+
+        <section class="task-section" aria-labelledby="add-task-heading">
+            <h2 id="add-task-heading">Add a task</h2>
+            <form id="task-form">
+                <label for="task-input">Task name</label>
+                <div class="form-row">
+                    <input
+                        id="task-input"
+                        name="task"
+                        type="text"
+                        placeholder="Type a task"
+                        required
+                    >
+                    <button type="submit">Add Task</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>One task at a time.</p>
+        <p>all right reserved by kishore ;)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
