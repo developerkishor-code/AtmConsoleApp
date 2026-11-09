@@ -24,3 +24,6 @@ var myMultiArray = [["kishore",25,"India"],["Ravi",30,"USA"]];
 console.log(myMultiArray[0][1]);
 
 
+myMultiArray.unshift(["Ramesh",35,"UK"]);
+console.log(myMultiArray[0][0]);
+
