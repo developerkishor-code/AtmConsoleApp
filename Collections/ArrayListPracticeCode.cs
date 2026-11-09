@@ -8,9 +8,9 @@ namespace AtmConsoleApp.Collections
     {
         ArrayList al = new ArrayList();
 
-        public void addItemsToAyyarList(string [] items)
+        public void addItemsToAyyarList(string[] items)
         {
-            foreach(var item in items)
+            foreach (var item in items)
             {
                 al.Add(item);
             }
@@ -18,9 +18,9 @@ namespace AtmConsoleApp.Collections
 
         public void displayItemsFromArrayList()
         {
-            foreach(var items in al)
+            foreach (var items in al)
             {
-               Console.WriteLine($"Your inserted item is: {items}"); 
+                Console.WriteLine($"Your inserted item is: {items}");
             }
         }
 

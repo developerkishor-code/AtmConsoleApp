@@ -1,5 +1,5 @@
-﻿using AtmConsoleApp.Collections;
+﻿using AtmConsoleApp.CollectionExercise;
+using AtmConsoleApp.ExceptionHandling;
 
-HashTablePractiseCode hashTablePractiseCode = new HashTablePractiseCode();
-hashTablePractiseCode.addItemsToHashTable();
-hashTablePractiseCode.displayAllItemFromHashTable();
+AgeValidationExercise ageValidationExercise = new AgeValidationExercise();
+ageValidationExercise.Run();

@@ -9,8 +9,8 @@ namespace AtmConsoleApp.Collections
     public class HashTablePractiseCode
     {
         Hashtable ht = new Hashtable();
-       
-       public void addItemsToHashTable()
+
+        public void addItemsToHashTable()
         {
             ht.Add("emp_name", "Scott");
             ht.Add("emp_id", 101);
@@ -23,7 +23,7 @@ namespace AtmConsoleApp.Collections
 
         public void displayAllItemFromHashTable()
         {
-            foreach(object key in ht.Keys)
+            foreach (object key in ht.Keys)
             {
                 Console.WriteLine($"Key: {key} : {ht[key]}");
             }
