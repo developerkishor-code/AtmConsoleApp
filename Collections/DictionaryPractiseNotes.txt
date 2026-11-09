@@ -1,0 +1,15 @@
+Dictionary<TKey, TValue> in C#
+=============================
+
+Dictionary<TKey, TValue> is a generic collection in the
+System.Collections.Generic namespace. It stores values as key-value pairs.
+Use a key to find its associated value instead of using a numeric index.
+
+Key points
+----------
+- TKey defines the key type, and TValue defines the value type. For example,
+  Dictionary<string, string> maps string keys to string values.
+- Each key must be unique. Adding an existing key with Add throws an
+  ArgumentException.
+- Keys cannot be null when TKey is a reference type. Values may be null when
+  TValue permits null.
