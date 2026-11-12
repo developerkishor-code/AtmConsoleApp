@@ -1,0 +1,33 @@
+ArrayList in C#
+===============
+
+An ArrayList is a collection from the System.Collections namespace. Unlike a
+regular array, its size can grow or shrink as items are added or removed.
+
+Key points
+----------
+- ArrayList stores items as objects, so it can hold values of different types.
+- Items can be added, inserted at an index, removed, or accessed by index.
+- Count is the number of items currently stored.
+- Capacity is the amount of storage currently allocated. Capacity may grow
+  automatically when more space is needed.
+- You can provide an initial capacity when creating an ArrayList. This reserves
+  storage; it does not add that number of items.
+- The exact capacity growth strategy is an implementation detail. Do not rely
+  on it always doubling.
+- Because ArrayList is non-generic, value types may be boxed when added and
+  unboxed when retrieved. For most new code, List<T> is usually preferred
+  because it provides type safety.
+
+Example
+-------
+using System.Collections;
+
+ArrayList items = new ArrayList(10);
+items.Add("Notebook");
+items.Insert(0, "Pencil");
+items.Remove("Notebook");
+
+Console.WriteLine(items.Count);    // Number of items: 1
+Console.WriteLine(items.Capacity); // Allocated storage; at least Count
+
