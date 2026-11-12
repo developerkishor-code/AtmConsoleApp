@@ -27,3 +27,8 @@ console.log(myDog.name);
 //adding a new property to the objects:
 myDog.bark = "woof";
 console.log(myDog.bark);
+
+//deleting a property from the objects:
+delete myDog.tails;
+console.log(myDog.tails);
+
